@@ -1,0 +1,5 @@
+*.html
+*.pyc
+*.pyo
+/samples/*.akaibu
+/venv
