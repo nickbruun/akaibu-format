@@ -8,7 +8,7 @@ python:
 install:
   - wget -O snappy-1.1.2.tar.gz -- "https://docs.google.com/uc?authuser=0&id=0B0xs9kK-b5nMOWIxWGJhMXd6aGs&export=download"
   - tar -xf snappy-1.1.2.tar.gz
-  - cd snappy-1.1.2 && ./configure && sudo make all install
+  - cd snappy-1.1.2 && ./configure && sudo make all install && cd ..
   - pip install -r requirements.txt --use-mirrors
 script:
   - make
