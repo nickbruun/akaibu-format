@@ -79,7 +79,7 @@ def write_record_v1(f, data):
                                       'records over %d B' %
                                       (2 ** 35 - 1))
 
-    f.write(size_data)
+    f.write(bytes(size_data))
 
     # Write the data.
     f.write(bytes(data))
