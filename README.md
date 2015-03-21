@@ -1,6 +1,6 @@
 # Akaibu log archival format specification
 
-The format specification for version 1 is contained in [format.rst](format.rst).
+Akaibu, from the Japanese アーカイブ (Ākaibu), is a log archival format for arbitrary log records. The format specification for version 1 is contained in [format.rst](format.rst).
 
 
 ## Samples
