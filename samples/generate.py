@@ -129,7 +129,7 @@ if len(sys.argv) > 1:
 
 # Generate sample record data.
 sample_record_stream = BytesIO()
-for size in range(100, 100 * sample_record_count, 100):
+for size in range(100, 100 * (sample_record_count + 1), 100):
     write_record_v1(sample_record_stream, get_sample_data(size))
 sample_records = sample_record_stream.getvalue()
 
